@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Rubik+Mono+One&display=swap');
+
+body {
+    font-family: "Righteous", sans-serif;
+    background-color: #173B45;
+    background-image: linear-gradient(90deg, #0a1e2b 10%, #3C5B6F 90%);
+}
+
+#seleccionar-mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    color: #ff5100;
+    font-size: 72px;
+}
+
+.subtitulo {
+    color: #FF8225;
+    font-size: 22px;
+}
+
+.tarjetas {
+    display: flex;
+    gap: 10px;
+}
+
+.tarjeta-de-mokepon {
+    width: 300px;
+    height: 200px;
+    background-image: linear-gradient(90deg, #160a3d 10%, #034f7b 90%);
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 3px solid #cc4f2695;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FC4100;
+    font-size: 30px;
+}
+
+.tarjeta-de-mokepon img {
+    width: 100px;
+}
+
+#boton-mascota {
+    width: 180px;
+    height: 60px;
+    border-radius: 30px;
+    background: transparent;
+    border: 2px solid #fbb000ae;
+    color: #FC4100;
+    font-family: "Poppins", sans-serif;
+    margin-top: 30px;
+}
+
+input {
+    display: none;
+}
+
+#seleccionar-ataque {
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-de-ataque {
+    background-image: linear-gradient(90deg, #fc3f00 10%, #FEB941 90%);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 70px;
+    border: 2px solid #cc00ff;
+    color: #f3f3f3;
+}
+
+#mensajes {
+    width: 300px;
+    background: rgba(172, 255, 47, 0.706);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#boton-reiniciar {
+    border: none;
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+}
+
+.ataques {
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
